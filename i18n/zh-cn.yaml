@@ -1,0 +1,27 @@
+## HOME ##
+- id: "home.home"
+  translation: "首页"
+  
+- id: "home.recent_posts"
+  translation: "最新文章"
+
+- id: "home.see_all_posts"
+  translation: "查看所有文章"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "目录"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "回到顶部"
+
+- id: "footer.disclaimer"
+  translation: "码上星河"
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "404"
+
+- id: "errors.404_description"
+  translation: "对不起，您访问的页面已被删除！"
