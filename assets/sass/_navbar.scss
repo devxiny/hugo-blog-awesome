@@ -7,12 +7,11 @@
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px solid $light;
-    padding: .5rem .3rem;
     @extend %clearfix;
   }
   .logo {
     float: left;
-    margin: .5rem 0 0 1rem;
+    margin: 0 0 0 1rem;
     > svg {
       opacity: 0.7;
     }
@@ -20,10 +19,6 @@
       > svg {
         opacity: 1;
       }
-    }
-    @include media-query($on-mobile) {
-      padding-top: .3rem;
-
     }
   }
   // Navigation
@@ -87,6 +82,7 @@
       float: right;
       display: flex;
       align-items: center;
+      height: 50px;
     }
 
     .menu-trigger {
@@ -151,13 +147,14 @@
       a#mode {
         left: 10px;
         top: 12px;
+        margin-top: 10px;
       }
 
       .menu-icon {
-        display: block;
+        display: flex;
         position: absolute;
         right: 0;
-        margin: .7rem .3rem 0 0;
+        margin: 0 0 0 0;
         cursor: pointer;
         text-align: center;
         z-index: 1;
