@@ -31,6 +31,10 @@ pre {
   display: block;
   overflow-x: auto;
 
+  &.mermaid {
+    background: #ffffff;
+  }
+
   @include media-query($on-mobile) {
     margin: 0 calc(51% - 51vw);
   }
